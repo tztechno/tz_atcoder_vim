@@ -1,4 +1,14 @@
 ##########################################
+:let S = getline(1)
+:execute '%d'
+:if S == 'ABC'
+  :let ans = 'ARC'
+:else
+  :let ans = 'ABC'
+:endif
+:put! = ans
+:wq
+
 ##########################################
 aR:s/RR/B
 :s/RB/R
