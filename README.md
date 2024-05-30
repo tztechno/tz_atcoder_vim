@@ -27,6 +27,13 @@ https://vim-jp.org/vimdoc-ja/
 ```
 ---
 ```
-
+数字入力
+---method1---
+:delete n
+:let n = @n
+---method2---
+:delete f
+:let fs = split(@f)
+:let n = fs[0]
 ```
 ---
