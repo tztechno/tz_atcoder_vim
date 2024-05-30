@@ -1,0 +1,63 @@
+abc112_a.
+#######################################
+数字入力
+---method1---
+:delete n
+:let n = @n
+---method2---
+:delete f
+:let fs = split(@f)
+:let n = fs[0]
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+#######################################
+[AC]
+:delete n
+:let n = @n
+:if n==1 
+:put! = 'Hello World'
+:write
+:else
+:delete a
+:let a = @a
+:delete b
+:let b = @b
+:put! = (a + b)
+:join
+:write
+:quit
+#######################################
+[AC]
+:delete f
+:let fs = split(@f)
+:let n = fs[0]
+:if n==1 
+:put! = 'Hello World'
+:write
+:else
+:delete g
+:let gs = split(@g)
+:let a = gs[0]
+:delete h
+:let hs = split(@h)
+:let b = hs[0]
+:put! = (a + b)
+:join
+:write
+:quit
+#######################################
+[python]
+N=int(input())
+if N==1:
+    print("Hello World")
+else:
+    a=int(input())
+    b=int(input())
+    print(a+b)
+    
+#######################################
