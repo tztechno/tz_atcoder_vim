@@ -5,6 +5,7 @@ https://vim-jp.org/vimdoc-ja/usr_41.html
 https://vim-jp.org/vimdoc-ja/
 
 ### latest
+
 ---
 ```
 
@@ -23,7 +24,7 @@ https://vim-jp.org/vimdoc-ja/
 ```
 ---
 ```
-
+:put! = 'Christmas'.repeat(' Eve',a)
 ```
 ---
 ```
